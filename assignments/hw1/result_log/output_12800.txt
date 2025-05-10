@@ -1,0 +1,69 @@
+------------------------
+
+CPU:
+n = 12800
+Total Time: 592.477 ms
+
+GPU:
+n = 12800, block_size = 128
+
+Scalar add:
+Host to Device IO: 215.121
+Compute: 12.911
+Device to Host IO: 95.989
+Total Time: 324.021
+
+Vectorized add:
+Host to Device IO: 215.141
+Compute: 12.532
+Device to Host IO: 95.986
+Total Time: 323.659
+
+GPU:
+n = 12800, block_size = 256
+
+Scalar add:
+Host to Device IO: 215.111
+Compute: 12.889
+Device to Host IO: 95.978
+Total Time: 323.978
+
+Vectorized add:
+Host to Device IO: 215.106
+Compute: 12.533
+Device to Host IO: 95.959
+Total Time: 323.598
+
+GPU:
+n = 12800, block_size = 512
+
+Scalar add:
+Host to Device IO: 215.142
+Compute: 12.942
+Device to Host IO: 95.978
+Total Time: 324.061
+
+Vectorized add:
+Host to Device IO: 216.455
+Compute: 12.539
+Device to Host IO: 96.686
+Total Time: 325.680
+
+GPU:
+n = 12800, block_size = 1024
+
+Scalar add:
+Host to Device IO: 215.175
+Compute: 13.094
+Device to Host IO: 96.023
+Total Time: 324.293
+
+Vectorized add:
+Host to Device IO: 215.078
+Compute: 12.544
+Device to Host IO: 95.995
+Total Time: 323.617
+
+Result Correctness: True
+
+------------------------
