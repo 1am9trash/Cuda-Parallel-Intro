@@ -98,7 +98,7 @@ void profile_on_gpu(
     const unsigned int block_size,
     const unsigned int warmup_iter, const unsigned int test_iter
 ) {
-    float time_log[6] = {0.0, 0.0, 0.0};
+    float time_log[6] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
     for (size_t i = 0; i < warmup_iter; i++) {
         kernel_runner(a, b, c, n, 0, block_size, NULL);
