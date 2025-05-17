@@ -1,0 +1,29 @@
+#ifndef UTILS_HPP
+#define UTILS_HPP
+
+#include <vector>
+#include <ctime>
+
+
+std::vector<float> create_matrix(unsigned int m, unsigned int n, float mx, float mn);
+bool check_matrix_same(std::vector<float> &a, std::vector<float> &b);
+void print_matrix(std::vector<float> mat, unsigned int limit);
+
+class ITimer {
+public:
+    virtual void start_timer() = 0;
+    virtual void stop_timer() = 0;
+    virtual float get_elaspsed_time_in_ms() = 0;
+};
+
+class CPUTimer: public ITimer {
+private:
+    std::clock_t start;
+    std::clock_t stop;
+public:
+    void start_timer() override;
+    void stop_timer() override;
+    float get_elaspsed_time_in_ms() override;
+};
+
+#endif

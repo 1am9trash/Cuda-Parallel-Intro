@@ -1,0 +1,69 @@
+------------------------
+
+CPU:
+n = 6400
+Total Time: 0.009100 ms
+
+GPU:
+
+Result: 3190.037234
+n = 6400, block_size = 32, grid_size = 200
+Host to Device IO: 23.332941
+GPU Compute: 0.024857
+Device to Host IO: 4.241921
+CPU Compute: 0.001900
+Total Time: 27.601618
+
+GPU:
+
+Result: 3190.037251
+n = 6400, block_size = 64, grid_size = 100
+Host to Device IO: 23.334303
+GPU Compute: 0.025385
+Device to Host IO: 4.240593
+CPU Compute: 0.001800
+Total Time: 27.602081
+
+GPU:
+
+Result: 3190.037216
+n = 6400, block_size = 128, grid_size = 50
+Host to Device IO: 23.356266
+GPU Compute: 0.025068
+Device to Host IO: 4.241542
+CPU Compute: 0.001667
+Total Time: 27.624542
+
+GPU:
+
+Result: 3190.037224
+n = 6400, block_size = 256, grid_size = 25
+Host to Device IO: 23.346304
+GPU Compute: 0.025057
+Device to Host IO: 4.240840
+CPU Compute: 0.001467
+Total Time: 27.613668
+
+GPU:
+
+Result: 3190.037231
+n = 6400, block_size = 512, grid_size = 13
+Host to Device IO: 23.342787
+GPU Compute: 0.025636
+Device to Host IO: 4.239539
+CPU Compute: 0.001433
+Total Time: 27.609398
+
+GPU:
+
+Result: 3190.037292
+n = 6400, block_size = 1024, grid_size = 7
+Host to Device IO: 23.365881
+GPU Compute: 0.025843
+Device to Host IO: 4.242866
+CPU Compute: 0.001500
+Total Time: 27.636087
+
+Result Correctness: True
+
+------------------------
