@@ -10,13 +10,6 @@ __global__ void matrix_trace_reduce_kernel(
     unsigned int n
 );
 
-__global__ void vectorized_add_matrix_kernel(
-    const float *a,
-    const float *b,
-    float *c,
-    unsigned int n
-);
-
 void kernel_runner(
     const float *a,
     double *sum,
