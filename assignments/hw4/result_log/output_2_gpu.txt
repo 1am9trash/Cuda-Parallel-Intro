@@ -1,0 +1,191 @@
+------------------------
+
+CPU:
+
+Result: 1023384.818588
+n = 4096000
+Total Time: 3.813867 ms
+
+GPU:
+
+Result: 1023384.818808
+n = 4096000, n_gpu = 2, block_size = 32, grid_size = 128000
+Host to Device IO: 3.600676
+GPU Compute: 0.286925
+Device to Host IO: 1.408287
+CPU Compute: 0.111100
+Total Time: 5.406988
+
+GPU:
+
+Result: 1023384.818806
+n = 4096000, n_gpu = 2, block_size = 32, grid_size = 64000
+Host to Device IO: 3.584459
+GPU Compute: 0.176080
+Device to Host IO: 1.080122
+CPU Compute: 0.058700
+Total Time: 4.899361
+
+GPU:
+
+Result: 1023384.818535
+n = 4096000, n_gpu = 2, block_size = 32, grid_size = 32000
+Host to Device IO: 3.665622
+GPU Compute: 0.133842
+Device to Host IO: 0.915027
+CPU Compute: 0.031233
+Total Time: 4.745725
+
+GPU:
+
+Result: 1023384.818590
+n = 4096000, n_gpu = 2, block_size = 64, grid_size = 64000
+Host to Device IO: 3.570094
+GPU Compute: 0.167197
+Device to Host IO: 0.774411
+CPU Compute: 0.063667
+Total Time: 4.575368
+
+GPU:
+
+Result: 1023384.818382
+n = 4096000, n_gpu = 2, block_size = 64, grid_size = 32000
+Host to Device IO: 3.573827
+GPU Compute: 0.117997
+Device to Host IO: 0.738309
+CPU Compute: 0.031133
+Total Time: 4.461267
+
+GPU:
+
+Result: 1023384.818508
+n = 4096000, n_gpu = 2, block_size = 64, grid_size = 16000
+Host to Device IO: 3.572318
+GPU Compute: 0.112470
+Device to Host IO: 0.717589
+CPU Compute: 0.016367
+Total Time: 4.418745
+
+GPU:
+
+Result: 1023384.818356
+n = 4096000, n_gpu = 2, block_size = 128, grid_size = 32000
+Host to Device IO: 3.571892
+GPU Compute: 0.175435
+Device to Host IO: 0.731123
+CPU Compute: 0.031333
+Total Time: 4.509784
+
+GPU:
+
+Result: 1023384.818905
+n = 4096000, n_gpu = 2, block_size = 128, grid_size = 16000
+Host to Device IO: 3.573198
+GPU Compute: 0.118948
+Device to Host IO: 0.718439
+CPU Compute: 0.016500
+Total Time: 4.427085
+
+GPU:
+
+Result: 1023384.818825
+n = 4096000, n_gpu = 2, block_size = 128, grid_size = 8000
+Host to Device IO: 3.568245
+GPU Compute: 0.113715
+Device to Host IO: 0.706000
+CPU Compute: 0.009100
+Total Time: 4.397059
+
+GPU:
+
+Result: 1023384.819057
+n = 4096000, n_gpu = 2, block_size = 256, grid_size = 16000
+Host to Device IO: 3.575951
+GPU Compute: 0.196001
+Device to Host IO: 0.718658
+CPU Compute: 0.016433
+Total Time: 4.507043
+
+GPU:
+
+Result: 1023384.818596
+n = 4096000, n_gpu = 2, block_size = 256, grid_size = 8000
+Host to Device IO: 3.571029
+GPU Compute: 0.125036
+Device to Host IO: 0.709753
+CPU Compute: 0.009033
+Total Time: 4.414851
+
+GPU:
+
+Result: 1023384.819595
+n = 4096000, n_gpu = 2, block_size = 256, grid_size = 4000
+Host to Device IO: 3.573855
+GPU Compute: 0.114912
+Device to Host IO: 0.709767
+CPU Compute: 0.005500
+Total Time: 4.404034
+
+GPU:
+
+Result: 1023384.819435
+n = 4096000, n_gpu = 2, block_size = 512, grid_size = 8000
+Host to Device IO: 3.578049
+GPU Compute: 0.225734
+Device to Host IO: 0.703897
+CPU Compute: 0.009167
+Total Time: 4.516847
+
+GPU:
+
+Result: 1023384.819260
+n = 4096000, n_gpu = 2, block_size = 512, grid_size = 4000
+Host to Device IO: 3.565382
+GPU Compute: 0.139113
+Device to Host IO: 0.708755
+CPU Compute: 0.005333
+Total Time: 4.418583
+
+GPU:
+
+Result: 1023384.818420
+n = 4096000, n_gpu = 2, block_size = 512, grid_size = 2000
+Host to Device IO: 3.572092
+GPU Compute: 0.118458
+Device to Host IO: 0.698172
+CPU Compute: 0.003700
+Total Time: 4.392420
+
+GPU:
+
+Result: 1023384.817841
+n = 4096000, n_gpu = 2, block_size = 1024, grid_size = 4000
+Host to Device IO: 3.571750
+GPU Compute: 0.278445
+Device to Host IO: 0.700858
+CPU Compute: 0.005500
+Total Time: 4.556551
+
+GPU:
+
+Result: 1023384.819336
+n = 4096000, n_gpu = 2, block_size = 1024, grid_size = 2000
+Host to Device IO: 3.567295
+GPU Compute: 0.169146
+Device to Host IO: 0.700859
+CPU Compute: 0.003600
+Total Time: 4.440900
+
+GPU:
+
+Result: 1023384.819458
+n = 4096000, n_gpu = 2, block_size = 1024, grid_size = 1000
+Host to Device IO: 3.567349
+GPU Compute: 0.132679
+Device to Host IO: 0.693577
+CPU Compute: 0.002700
+Total Time: 4.396306
+
+Result Correctness: True
+
+------------------------
