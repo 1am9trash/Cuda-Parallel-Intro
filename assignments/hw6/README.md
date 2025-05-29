@@ -8,13 +8,15 @@ Generate a dataset that follows the **exponential distribution**, and evaluate t
 - **GPU using shared memory**
 
 The exponential distribution is defined as:
+
 $$
 P(x) = \lambda e^{-\lambda x}, \quad x > 0,\ \lambda = 1
 $$
 
 The histogram is computed by dividing the range ($[0, x_{\text{max}}]$) into uniform bins of width ($\Delta$). The count for each bin is given by:
+
 $$
-\text{bin}_j = \left| \left\{ a_i \mid a_i \in \left[ j \cdot \Delta, (j+1) \cdot \Delta \right) \right\} \right|, \quad j = 0, 1, \dots, B-1,\quad a \in \mathbb{R}^{N}, \quad N = 81920000
+\text{bin}_j = \left| \left\\{ a_i \mid a_i \in \left[ j \cdot \Delta, (j+1) \cdot \Delta \right) \right\\} \right|, \quad j = 0, 1, \dots, B-1,\quad a \in \mathbb{R}^{N}, \quad N = 81920000
 $$
 
 ## Analysis
