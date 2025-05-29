@@ -1,0 +1,290 @@
+------------------------
+
+CPU:
+
+Result:
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+
+n = 81920000
+Total Time: 150.920364 ms
+
+GPU:
+
+Mode: 0
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.474487
+GPU Compute: 35.192802
+Device to Host IO: 3.776550
+Total Time: 89.443832
+
+GPU:
+
+Mode: 1
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.535873
+GPU Compute: 8.647985
+Device to Host IO: 3.778842
+Total Time: 62.962700
+
+GPU:
+
+Mode: 2
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.516094
+GPU Compute: 3.106306
+Device to Host IO: 3.778563
+Total Time: 57.400963
+
+GPU:
+
+Mode: 0
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.527840
+GPU Compute: 35.414536
+Device to Host IO: 3.777682
+Total Time: 89.720062
+
+GPU:
+
+Mode: 1
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.526512
+GPU Compute: 4.813350
+Device to Host IO: 3.782376
+Total Time: 59.122242
+
+GPU:
+
+Mode: 2
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.568710
+GPU Compute: 2.891782
+Device to Host IO: 3.783239
+Total Time: 57.243729
+
+GPU:
+
+Mode: 0
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.533154
+GPU Compute: 35.414787
+Device to Host IO: 3.779549
+Total Time: 89.727493
+
+GPU:
+
+Mode: 1
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.513565
+GPU Compute: 4.706721
+Device to Host IO: 3.780263
+Total Time: 59.000553
+
+GPU:
+
+Mode: 2
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.524113
+GPU Compute: 2.924691
+Device to Host IO: 3.781588
+Total Time: 57.230392
+
+GPU:
+
+Mode: 0
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.541451
+GPU Compute: 35.414993
+Device to Host IO: 3.777148
+Total Time: 89.733597
+
+GPU:
+
+Mode: 1
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.516853
+GPU Compute: 5.022636
+Device to Host IO: 3.782103
+Total Time: 59.321594
+
+GPU:
+
+Mode: 2
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.534359
+GPU Compute: 2.985990
+Device to Host IO: 3.780242
+Total Time: 57.300591
+
+GPU:
+
+Mode: 0
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.527657
+GPU Compute: 35.415794
+Device to Host IO: 3.778273
+Total Time: 89.721725
+
+GPU:
+
+Mode: 1
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.530285
+GPU Compute: 5.342365
+Device to Host IO: 3.778717
+Total Time: 59.651367
+
+GPU:
+
+Mode: 2
+Result:
+
+bin[ 0] = 38071545   bin[ 1] = 20374335   bin[ 2] = 10908246   bin[ 3] = 5838099    
+bin[ 4] = 3125645    bin[ 5] = 1674268    bin[ 6] = 895460     bin[ 7] = 480088     
+bin[ 8] = 256432     bin[ 9] = 138042     bin[10] = 73158      bin[11] = 39422      
+bin[12] = 20934      bin[13] = 11318      bin[14] = 6009       bin[15] = 3262       
+bin[16] = 1727       bin[17] = 926        bin[18] = 496        bin[19] = 274        
+bin[20] = 149        bin[21] = 73         bin[22] = 42         bin[23] = 25         
+bin[24] = 14         bin[25] = 4          bin[26] = 7          bin[27] = 0          
+bin[28] = 0          bin[29] = 0          bin[30] = 0          bin[31] = 0          
+Host to Device IO: 50.544807
+GPU Compute: 3.089884
+Device to Host IO: 3.783363
+Total Time: 57.418053
+
+Result Correctness: 1
+
+------------------------
