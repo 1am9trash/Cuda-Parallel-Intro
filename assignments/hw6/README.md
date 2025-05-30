@@ -27,6 +27,25 @@ This assignment compares different implementations of **histogram** computation 
 
 ## Experiment Results
 
+### Histogram Verification
+To verify correctness, we compare the computed histogram with the theoretical shape of the exponential / uniform distribution:
+
+```mermaid
+xychart-beta
+    title "Exponential Distribution Histogram"
+    x-axis [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+    y-axis "Frequency" 0 --> 40000000
+    bar [38071545, 20374335, 10908246, 5838099, 3125645, 1674268, 895460, 480088, 256432, 138042, 73158, 39422, 20934, 11318, 6009, 3262, 1727, 926, 496, 274, 149, 73, 42, 25, 14, 4, 7, 0, 0, 0, 0, 0]
+```
+
+```mermaid
+xychart-beta
+    title "Uniform Distribution Histogram"
+    x-axis [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+    y-axis "Frequency" 0 --> 40000000
+    bar [2561289, 2558538, 2562170, 2560310, 2557802, 2559890, 2560335, 2558433, 2559797, 2558377, 2563012, 2557930, 2559870, 2560587, 2561761, 2558261, 2556695, 2561778, 2559837, 2560538, 2557908, 2560191, 2561095, 2562257, 2555893, 2561258, 2561753, 2559039, 2561207, 2556828, 2564035, 2561326]
+```
+
 ### CPU vs. GPU (Best Case)
 
 I first compare the **end-to-end execution time** across all implementations. 
