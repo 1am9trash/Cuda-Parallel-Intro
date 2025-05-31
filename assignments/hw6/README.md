@@ -30,12 +30,39 @@ This assignment compares different implementations of **histogram** computation 
 ### Histogram Verification
 To verify correctness, we compare the computed histogram with the theoretical shape of the exponential / uniform distribution:
 
+**Theoretical Probability Calculation for the Exponential Distribution**
+
+Each bin ($i$) corresponds to the range ($[b_i, b_{i+1}]$), where:
+
+$$
+b_i = i \cdot \Delta, \quad b_{i+1} = (i + 1) \cdot \Delta
+$$
+
+The theoretical probability mass for bin ($i$) is given by:
+
+$$
+P_i = \int_{b_i}^{b_{i+1}} \lambda e^{-\lambda x} \, dx = e^{-\lambda b_i} - e^{-\lambda b_{i+1}}
+$$
+
+Multiplying by the total number of samples $N$, I obtain the expected count for bin ($i$):
+
+$$
+\text{Expected Count}_i = N \cdot \left(e^{-\lambda b_i} - e^{-\lambda b_{i+1}}\right)
+$$
+
+Configuration:
+
+$$
+N = 81920000, \quad \text{Range} = 20, \quad \text{Number of Bins} = 32, \quad \Delta = \frac{20}{32}, \quad \lambda = 1
+$$
+
 ```mermaid
 xychart-beta
     title "Exponential Distribution Histogram"
     x-axis [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
     y-axis "Frequency" 0 --> 40000000
     bar [38071545, 20374335, 10908246, 5838099, 3125645, 1674268, 895460, 480088, 256432, 138042, 73158, 39422, 20934, 11318, 6009, 3262, 1727, 926, 496, 274, 149, 73, 42, 25, 14, 4, 7, 0, 0, 0, 0, 0]
+    line [38071384, 20378143, 10907634, 5838436, 3125089, 1672740, 895353, 479248, 256523, 137307, 73495, 39339, 21057, 11271, 6033, 3229, 1728, 925, 495, 265, 142, 76, 41, 22, 12, 6, 3, 2, 1, 1, 0, 0]
 ```
 
 ```mermaid
@@ -44,6 +71,7 @@ xychart-beta
     x-axis [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
     y-axis "Frequency" 0 --> 40000000
     bar [2561289, 2558538, 2562170, 2560310, 2557802, 2559890, 2560335, 2558433, 2559797, 2558377, 2563012, 2557930, 2559870, 2560587, 2561761, 2558261, 2556695, 2561778, 2559837, 2560538, 2557908, 2560191, 2561095, 2562257, 2555893, 2561258, 2561753, 2559039, 2561207, 2556828, 2564035, 2561326]
+    line [2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000, 2560000]
 ```
 
 ### CPU vs. GPU (Best Case)
