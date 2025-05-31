@@ -47,7 +47,7 @@ $$
 Multiplying by the total number of samples $N$, I obtain the expected count for bin ($i$):
 
 $$
-\text{Expected Count}_i = N \cdot \left(e^{-\lambda b_i} - e^{-\lambda b_{i+1}}\right)
+\text{Expected Count} = N \cdot \left(e^{-\lambda b_i} - e^{-\lambda b_{i+1}}\right)
 $$
 
 Configuration:
