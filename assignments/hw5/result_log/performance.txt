@@ -1,0 +1,140 @@
+------------------------
+
+CPU:
+n = 1024
+iter = 1214455
+Total Time: 2698642.500000 ms
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 1
+block_size_x = 4, block_size_y = 4
+grid_size_x = 256, grid_size_y = 256
+iter = 1214455
+Host to Device IO: 12.983488
+Compute: 843839.062500
+Device to Host IO: 6.842048
+Total Time: 843858.875000
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 1
+block_size_x = 8, block_size_y = 8
+grid_size_x = 128, grid_size_y = 128
+iter = 1214455
+Host to Device IO: 8.928960
+Compute: 293590.687500
+Device to Host IO: 6.877568
+Total Time: 293606.500000
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 1
+block_size_x = 16, block_size_y = 16
+grid_size_x = 64, grid_size_y = 64
+iter = 1214455
+Host to Device IO: 8.974496
+Compute: 240505.437500
+Device to Host IO: 6.825280
+Total Time: 240521.234375
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 1
+block_size_x = 32, block_size_y = 32
+grid_size_x = 32, grid_size_y = 32
+iter = 1214455
+Host to Device IO: 9.001824
+Compute: 288005.437500
+Device to Host IO: 6.912640
+Total Time: 288021.343750
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 2
+block_size_x = 4, block_size_y = 4
+grid_size_x = 256, grid_size_y = 256
+iter = 1214455
+Host to Device IO: 5.771424
+Compute: 487490.218750
+Device to Host IO: 4.121664
+Total Time: 487500.125000
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 2
+block_size_x = 8, block_size_y = 8
+grid_size_x = 128, grid_size_y = 128
+iter = 1214455
+Host to Device IO: 5.322528
+Compute: 171428.843750
+Device to Host IO: 4.150080
+Total Time: 171438.328125
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 2
+block_size_x = 16, block_size_y = 16
+grid_size_x = 64, grid_size_y = 64
+iter = 1214455
+Host to Device IO: 5.310752
+Compute: 136246.890625
+Device to Host IO: 4.162688
+Total Time: 136256.359375
+
+GPU:
+n = 1024
+n_gpu_x = 1, n_gpu_y = 2
+block_size_x = 32, block_size_y = 32
+grid_size_x = 32, grid_size_y = 32
+iter = 1214455
+Host to Device IO: 5.306720
+Compute: 158964.421875
+Device to Host IO: 4.179104
+Total Time: 158973.906250
+
+GPU:
+n = 1024
+n_gpu_x = 2, n_gpu_y = 1
+block_size_x = 4, block_size_y = 4
+grid_size_x = 256, grid_size_y = 256
+iter = 1214455
+Host to Device IO: 9.041568
+Compute: 410382.406250
+Device to Host IO: 7.042592
+Total Time: 410398.468750
+
+GPU:
+n = 1024
+n_gpu_x = 2, n_gpu_y = 1
+block_size_x = 8, block_size_y = 8
+grid_size_x = 128, grid_size_y = 128
+iter = 1214455
+Host to Device IO: 8.987232
+Compute: 172624.843750
+Device to Host IO: 6.995136
+Total Time: 172640.828125
+
+GPU:
+n = 1024
+n_gpu_x = 2, n_gpu_y = 1
+block_size_x = 16, block_size_y = 16
+grid_size_x = 64, grid_size_y = 64
+iter = 1214455
+Host to Device IO: 8.979360
+Compute: 137381.015625
+Device to Host IO: 7.168096
+Total Time: 137397.171875
+
+GPU:
+n = 1024
+n_gpu_x = 2, n_gpu_y = 1
+block_size_x = 32, block_size_y = 32
+grid_size_x = 32, grid_size_y = 32
+iter = 1214455
+Host to Device IO: 8.973120
+Compute: 158480.796875
+Device to Host IO: 7.184288
+Total Time: 158496.953125
+
+------------------------
