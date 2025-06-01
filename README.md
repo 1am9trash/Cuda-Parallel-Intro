@@ -13,3 +13,4 @@ This repository contains notes, assignments, and related materials for the **113
 | 2   | Project 2   | [Matrix Trace via Parallel Reduction](./assignments/hw2)                    | 2025-05-17     |
 | 3   | Project 4   | [Dot Product with Multi-GPU Parallelism](./assignments/hw4)                 | 2025-05-28     |
 | 4   | Project 6   | [Exponential Distribution Histogram](./assignments/hw6)                     | 2025-05-29     |
+| 5   | Project 5   | [Heat Diffusion with Multi-GPU and P2P Access](./assignments/hw5)           | 2025-06-01     |
