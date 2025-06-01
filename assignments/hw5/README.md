@@ -20,7 +20,7 @@ The solution is obtained using **Jacobi iterative method**, with a fixed relaxat
 The update rule for each interior grid point follows:
 
 $$
-T_{i,j}^{(\text{new})} = \frac{1}{4} \left( T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1} \right)
+\left| T_{i,j}^{\text{CPU}} - T_{i,j}^{\text{GPU}} \right| < 10^{-6}, \quad \forall i, j
 $$
 
 ## Methodology
@@ -45,7 +45,7 @@ Then, I implement two GPU versions for comparison:
 Each GPU result is verified against the **CPU ground truth** by performing element-wise comparison on the final temperature matrix. All values satisfy the condition:
 
 $$
-\left| T^{\text{CPU}}_{i,j} - T^{\text{GPU}}_{i,j} \right| < 10^{-6}, \quad \forall i, j
+\left| T_{i,j}^{\text{CPU}} - T_{i,j}^{\text{GPU}} \right| < 10^{-6}, \quad \forall i, j
 $$
 
 This confirms that the GPU implementations produce **numerically accurate results** under all configurations tested.
