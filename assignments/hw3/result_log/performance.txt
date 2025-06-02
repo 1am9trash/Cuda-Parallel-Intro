@@ -1,0 +1,73 @@
+------------------------
+
+CPU:
+n = 9
+iter = 248
+Total Time: 0.324000 ms
+Iter: 248, Error: 0.000000000095
+
+GPU:
+n = 9
+block_size_x = 8, block_size_y = 8, block_size_z = 8
+grid_size_x = 2, grid_size_y = 2, grid_size_z = 2
+iter: 248
+Host to Device IO: 0.164864
+Compute: 4.688064
+Device to Host IO: 0.097856
+Total Time: 4.950784
+
+------------------------
+
+CPU:
+n = 17
+iter = 953
+Total Time: 12.009000 ms
+Iter: 953, Error: 0.000000000099
+
+GPU:
+n = 17
+block_size_x = 8, block_size_y = 8, block_size_z = 8
+grid_size_x = 3, grid_size_y = 3, grid_size_z = 3
+iter: 953
+Host to Device IO: 0.146976
+Compute: 17.071392
+Device to Host IO: 0.088736
+Total Time: 17.307104
+
+------------------------
+
+CPU:
+n = 33
+iter = 3611
+Total Time: 388.822998 ms
+Iter: 3611, Error: 0.000000000100
+
+GPU:
+n = 33
+block_size_x = 8, block_size_y = 8, block_size_z = 8
+grid_size_x = 5, grid_size_y = 5, grid_size_z = 5
+iter: 3611
+Host to Device IO: 0.306464
+Compute: 122.527267
+Device to Host IO: 0.154656
+Total Time: 122.988388
+
+------------------------
+
+CPU:
+n = 65
+iter = 13594
+Total Time: 12634.901367 ms
+Iter: 13594, Error: 0.000000000100
+
+GPU:
+n = 65
+block_size_x = 8, block_size_y = 8, block_size_z = 8
+grid_size_x = 9, grid_size_y = 9, grid_size_z = 9
+iter: 13594
+Host to Device IO: 1.559424
+Compute: 1767.158813
+Device to Host IO: 0.981152
+Total Time: 1769.699463
+
+------------------------
