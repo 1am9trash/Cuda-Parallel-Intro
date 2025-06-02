@@ -14,3 +14,4 @@ This repository contains notes, assignments, and related materials for the **113
 | 3   | Project 4   | [Dot Product with Multi-GPU Parallelism](./assignments/hw4)                 | 2025-05-28     |
 | 4   | Project 6   | [Exponential Distribution Histogram](./assignments/hw6)                     | 2025-05-29     |
 | 5   | Project 5   | [Heat Diffusion with Multi-GPU and P2P Access](./assignments/hw5)           | 2025-06-01     |
+| 6   | Project 3   | [3D Poisson Equation on a Lattice](./assignments/hw3)                       | 2025-06-02     |
